@@ -1,0 +1,196 @@
+/* GuideMe Privacy Policy — static GitHub Pages styles */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #1a1a1a;
+  background-color: #f7f8fa;
+}
+
+.container {
+  width: 100%;
+  max-width: 52rem; /* ~832px */
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.site-header {
+  background: #fff;
+  border-bottom: 1px solid #e2e5eb;
+  padding: 1.25rem 0;
+}
+
+.brand {
+  margin: 0;
+  font-size: 1.375rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #0f172a;
+}
+
+.policy {
+  background: #fff;
+  margin: 2rem auto 3rem;
+  padding: 2rem 2.25rem;
+  border: 1px solid #e2e5eb;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.policy-header {
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e2e5eb;
+}
+
+.policy-header h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.875rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.25;
+  color: #0f172a;
+}
+
+.last-updated {
+  margin: 0;
+  font-size: 0.9375rem;
+  color: #64748b;
+}
+
+.policy-section {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #eef1f5;
+}
+
+.policy-section:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.policy-section h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.policy-section h3 {
+  margin: 1.25rem 0 0.5rem;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: #334155;
+}
+
+.policy-section p {
+  margin: 0 0 1rem;
+}
+
+.policy-section p:last-child {
+  margin-bottom: 0;
+}
+
+.policy-section ul {
+  margin: 0 0 1rem;
+  padding-left: 1.375rem;
+}
+
+.policy-section li {
+  margin-bottom: 0.35rem;
+}
+
+.policy-section li:last-child {
+  margin-bottom: 0;
+}
+
+.permissions-list {
+  margin: 0 0 1rem;
+}
+
+.permissions-list dt {
+  font-weight: 600;
+  color: #334155;
+  margin-top: 1rem;
+}
+
+.permissions-list dt:first-child {
+  margin-top: 0;
+}
+
+.permissions-list dd {
+  margin: 0.35rem 0 0;
+  padding-left: 0;
+  color: #1a1a1a;
+}
+
+.contact-block {
+  font-style: normal;
+  margin: 0;
+  padding: 1rem 1.25rem;
+  background: #f8fafc;
+  border: 1px solid #e2e5eb;
+  border-radius: 4px;
+}
+
+.contact-block a {
+  color: #1d4ed8;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.contact-block a:hover {
+  color: #1e40af;
+}
+
+.site-footer {
+  padding: 1.5rem 0 2.5rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .policy {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem 1.25rem;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+
+  .policy-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .site-header {
+    padding: 1rem 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
